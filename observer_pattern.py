@@ -28,6 +28,7 @@ class Order:
         self.notify()
 
 
+
 order = Order()
 
 sms = SMSNotifier()
@@ -38,5 +39,4 @@ order.add_observer(email)
 
 order.set_status("shipped")
 order.set_status("Delivered")
-
 
