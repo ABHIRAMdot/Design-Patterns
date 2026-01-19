@@ -26,7 +26,7 @@ class ShapeFactory:
         else:
             return "shape not defined"
 
-factory = ShapeFactory()
+# factory = ShapeFactory()
 
-shape1 = factory.create_shape("circle")
+shape1 = ShapeFactory.create_shape("circle")
 print(shape1.draw())
