@@ -23,6 +23,7 @@ class LightOnCommand(Command):
     def undo(self):
         self.light.off()
 
+        
 
 class LighOffCommand(Command):
     def __init__(self, light):
@@ -33,7 +34,6 @@ class LighOffCommand(Command):
 
     def undo(self):
         self.light.on()
-
 
 
 class RemoteControl:
